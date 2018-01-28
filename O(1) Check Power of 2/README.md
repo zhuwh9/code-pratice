@@ -34,7 +34,7 @@ bool checkPowerOf2(int n) {
 				n /= 2;
 			}
 		}
-        else if (n == 1) {
+		else if (n == 1) {
             return true;
         }
     }
